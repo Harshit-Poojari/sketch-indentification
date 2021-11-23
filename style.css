@@ -1,0 +1,35 @@
+h1 {
+    background-color: red;
+    color: white;
+}
+
+body {
+    background-color:  limegreen;
+}
+
+#show_sketch {
+
+    float:right;
+}
+
+canvas {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 5px;
+    margin-top: 80px;
+    animation-name: Simba;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes Simba{
+    from{box-shadow: 5px 5px 40px darkblue;}
+    from{box-shadow: 3px 3px 40px purple;}
+    to{box-shadow: 4px 4px 40px crimson ;}
+}
+
+p {
+    padding-top: 4px;
+    font-size: 25px;
+}
